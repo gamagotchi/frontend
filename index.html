@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/dist/output.css" rel="stylesheet" />
+    
     <link href="/src/styles.css" rel="stylesheet" />
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
@@ -13,7 +13,7 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"
       defer
     ></script>
-    <script src="./script.js" defer></script>
+    <script src="/src/script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link 
@@ -31,7 +31,7 @@
   
   <!-- Introduction -->
 
-  <div class="intro-page">
+  <div class="intro-page layer">
     
     <div class="navigation">
       
@@ -44,44 +44,43 @@
         <li class="nav-button-text"><a href="#catalogue">CATALOGUE</a></li>
       </ul>
 
-      <img src="./media/Navbar.png" class="navbar" />
+      <img src="/src/media/Navbar.png" class="navbar" />
     </div>
     
     <img
-      src="./media/BlueFrog.png"
+      src="/src/media/BlueFrog.png"
       class="bluefrog parallax"
       data-depth="0.70"
     />
 
     <img
-      src="./media/RedFrog.png"
+      src="/src/media/RedFrog.png"
       class="redfrog parallax"
       data-depth="0.70"
     />
 
     <img
-      src="./media/RocketFrog.png"
+      src="/src/media/RocketFrog.png"
       class="rocketfrog parallax"
       data-depth="0.70"
     />
     
     <img
-      src="./media/SmokeFrog.png"
+      src="/src/media/SmokeFrog.png"
       class="smokefrog parallax"
       data-depth="0.70"
     />
   
     <img
-      src="./media/Titlecard_foreground.png"
+      src="/src/media/Titlecard_foreground.png"
       class="bigfrog parallax"
       data-depth="0.85"
     />
 
-    <button class="absolute bigbutton learnmore parallax">
+    <button class="abs bigbutton learnmore parallax">
       Learn More
     </button>
 
-    <div class="layer"></div>
   </div>
 
   <!--  Scroll -->
@@ -89,7 +88,7 @@
   <div class="mountain parallax" data-depth="0.85">
 
     <div class="scroll-content">
-      <img src="./media/scroll.png" class="scroll-image"/>
+      <img src="/src/media/scroll.png" class="scroll-image"/>
       <div class="scroll-text">
           <h1 class="scroll-header">Welcome to Gamagotchi!<h1>
             <br>
@@ -106,7 +105,7 @@
     </div>
 
     <img
-      src="./media/treeline_3.png"
+      src="/src/media/treeline_3.png"
       class="treeline"
     />
   </div>
@@ -117,40 +116,40 @@
   <div class="basic-grid gameplay">
     <div class="polaroid-anticlockwise piece2 polaroid">
       <video class="video-frame" autoplay loop muted>
-        <source src="./media/general-footage.mp4" type="video/mp4" />
+        <source src="/src/media/general-footage.mp4" type="video/mp4" />
       </video>
       <p class="polaroid-text">Explore</p>
     </div>
     <div class=" polaroid-clockwise piece3 polaroid">
       <video class="video-frame" autoplay loop muted>
-        <source src="./media/breeding-footage.mp4" type="video/mp4" />
+        <source src="/src/media/breeding-footage.mp4" type="video/mp4" />
       </video>
       <p class="polaroid-text">Breed</p>
     </div>
     <div class="polaroid-anticlockwise piece4 polaroid">
       <video class="video-frame" autoplay loop muted>
-        <source src="./media/combat-footage.mp4" type="video/mp4" />
+        <source src="/src/media/combat-footage.mp4" type="video/mp4" />
       </video>
       <p class="polaroid-text">Battle</p>
     </div>
-    <img src="./media/webbed.png" class="web1 card" />
-    <img src="./media/webbed.png" class="web2 card" />
-    <img src="./media/webbed.png" class="web3 card" />
-    <img src="./media/webbed.png" class="web4 card" />
-    <img src="./media/webbed.png" class="web5 card" />
-    <img src="./media/webbed.png" class="web6 card" />
-    <img src="./media/webbed.png" class="web7 card" />
-    <img src="./media/webbed.png" class="web8 card" />
-    <img src="./media/webbed.png" class="web9 card" />
+    <img src="/src/media/webbed.png" class="web1 card" />
+    <img src="/src/media/webbed.png" class="web2 card" />
+    <img src="/src/media/webbed.png" class="web3 card" />
+    <img src="/src/media/webbed.png" class="web4 card" />
+    <img src="/src/media/webbed.png" class="web5 card" />
+    <img src="/src/media/webbed.png" class="web6 card" />
+    <img src="/src/media/webbed.png" class="web7 card" />
+    <img src="/src/media/webbed.png" class="web8 card" />
+    <img src="/src/media/webbed.png" class="web9 card" />
   </div>
 
   <!--Catalogue-->
 
   <div id="catalogue">
-    <img src="./media/mushroom-bg.png" class="catalogue-bg" />
+    <img src="/src/media/mushroom-bg.png" class="catalogue-bg" />
 
     <div class="signboard">
-      <img src="./media/wood-frame.png" class='abs'/>
+      <img src="/src/media/wood-frame.png" class='abs'/>
       <div class="frog-pen">Frog Pen</div>
     </div>
 
@@ -170,47 +169,47 @@
         <div class="carousel">
           <div class="carousel__cell">
             <video class="video-frame" autoplay loop muted>
-              <source src="./media/frogs/butterfly_frog.mp4" type="video/mp4" />
+              <source src="/src/media/frogs/butterfly_frog.mp4" type="video/mp4" />
             </video>
           </div>
           <div class="carousel__cell">
             <video class="video-frame" autoplay loop muted>
-              <source src="./media/frogs/dragon_frog.mp4" type="video/mp4" />
+              <source src="/src/media/frogs/dragon_frog.mp4" type="video/mp4" />
             </video>
           </div>
           <div class="carousel__cell">
             <video class="video-frame" autoplay loop muted>
-              <source src="./media/frogs/exorcist_frog.mp4" type="video/mp4" />
+              <source src="/src/media/frogs/exorcist_frog.mp4" type="video/mp4" />
             </video>
           </div>
           <div class="carousel__cell">
             <video class="video-frame" autoplay loop muted>
-              <source src="./media/frogs/lantern_frog.mp4" type="video/mp4" />
+              <source src="/src/media/frogs/lantern_frog.mp4" type="video/mp4" />
             </video>
           </div>
           <div class="carousel__cell ">
             <video class="video-frame" autoplay loop muted>
-              <source src="./media/frogs/green_frog.mp4" type="video/mp4" />
+              <source src="/src/media/frogs/green_frog.mp4" type="video/mp4" />
             </video>
           </div>
           <div class="carousel__cell ">
             <video class="video-frame" autoplay loop muted>
-              <source src="./media/frogs/dragon_frog.mp4" type="video/mp4" />
+              <source src="/src/media/frogs/dragon_frog.mp4" type="video/mp4" />
             </video>
           </div>
           <div class="carousel__cell ">
             <video class="video-frame" autoplay loop muted>
-              <source src="./media/frogs/mushroom_frog.mp4" type="video/mp4" />
+              <source src="/src/media/frogs/mushroom_frog.mp4" type="video/mp4" />
             </video>
           </div>
           <div class="carousel__cell ">
             <video class="video-frame" autoplay loop muted>
-              <source src="./media/frogs/lantern_frog.mp4" type="video/mp4" />
+              <source src="/src/media/frogs/lantern_frog.mp4" type="video/mp4" />
             </video>
           </div>
           <div class="carousel__cell">
             <video class="video-frame" autoplay loop muted>
-              <source src="./media/frogs/volcano_frog.mp4" type="video/mp4" />
+              <source src="/src/media/frogs/volcano_frog.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
