@@ -10,8 +10,8 @@ gsap.fromTo(
 
 gsap.fromTo(
     ".smokefrog", 
-    { bottom: "-80%", right: "-80%", y: "50%", x: "50%" },
-    { bottom: "20%", right: "20%", duration: 1}
+    { bottom: "-65%", right: "-80%", y: "50%", x: "50%" },
+    { bottom: "35%", right: "20%", duration: 1}
 );
 
 gsap.fromTo(
@@ -22,8 +22,8 @@ gsap.fromTo(
 
 gsap.fromTo(
     ".bluefrog", 
-    { bottom: "-80%", left: "-80%", y: "50%", x: "-50%" },
-    { bottom: "20%", left: "20%", duration: 1 }
+    { bottom: "-65%", left: "-80%", y: "50%", x: "-50%" },
+    { bottom: "35%", left: "20%", duration: 1 }
 );
 
 gsap.fromTo(
@@ -34,7 +34,7 @@ gsap.fromTo(
 
 gsap.fromTo(
   ".learnmore", 
-  {xPercent:-50, yPercent: 20, left:"50%", top:"85%"}, 
+  {xPercent:-50, yPercent: 20, left:"50%", top:"75%"}, 
   {xPercent:-50, yPercent:-50, duration: 0.5}
 );
 

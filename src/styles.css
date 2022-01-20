@@ -1,5 +1,10 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .intro-page {
-  height: 100vh;
+  height: 115vh;
   position: relative;
   width: 100vw;
 }
@@ -441,12 +446,6 @@
   color: rgb(255 255 255 / 1);
   font-family: 'Londrina Solid';
   font-size: 45px;
-}
-
-.intro-page {
-  height: 100vh;
-  position: relative;
-  width: 100vw;
 }
 
 .navigation {
